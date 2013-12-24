@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C5F2EF186997310057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F2EE186997310057564D /* Foundation.framework */; };
+		50C5F2FD186997310057564D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F2FC186997310057564D /* XCTest.framework */; };
+		50C5F2FE186997310057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F2EE186997310057564D /* Foundation.framework */; };
+		50C5F300186997310057564D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F2FF186997310057564D /* UIKit.framework */; };
+		50C5F303186997310057564D /* libObjectiveCPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F2EB186997310057564D /* libObjectiveCPlus.a */; };
+		50C5F309186997310057564D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50C5F307186997310057564D /* InfoPlist.strings */; };
+		50C5F30B186997310057564D /* ObjectiveCPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F30A186997310057564D /* ObjectiveCPlusTests.m */; };
+		50C5F318186997440057564D /* NSObject+OCPSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F315186997440057564D /* NSObject+OCPSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50C5F301186997310057564D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C5F2E3186997310057564D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C5F2EA186997310057564D;
+			remoteInfo = ObjectiveCPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50C5F2E9186997310057564D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50C5F2EB186997310057564D /* libObjectiveCPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveCPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5F2EE186997310057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50C5F2FB186997310057564D /* ObjectiveCPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5F2FC186997310057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50C5F2FF186997310057564D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		50C5F306186997310057564D /* ObjectiveCPlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveCPlusTests-Info.plist"; sourceTree = "<group>"; };
+		50C5F308186997310057564D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50C5F30A186997310057564D /* ObjectiveCPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCPlusTests.m; sourceTree = "<group>"; };
+		50C5F314186997440057564D /* NSObject+OCPSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OCPSwizzle.h"; sourceTree = "<group>"; };
+		50C5F315186997440057564D /* NSObject+OCPSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OCPSwizzle.m"; sourceTree = "<group>"; };
+		50C5F316186997440057564D /* ObjectiveCPlus-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectiveCPlus-Prefix.pch"; sourceTree = "<group>"; };
+		50C5F317186997440057564D /* ObjectiveCPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCPlus.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C5F2E8186997310057564D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F2EF186997310057564D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C5F2F8186997310057564D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F2FD186997310057564D /* XCTest.framework in Frameworks */,
+				50C5F300186997310057564D /* UIKit.framework in Frameworks */,
+				50C5F2FE186997310057564D /* Foundation.framework in Frameworks */,
+				50C5F303186997310057564D /* libObjectiveCPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C5F2E2186997310057564D = {
+			isa = PBXGroup;
+			children = (
+				50C5F2F0186997310057564D /* ObjectiveCPlus */,
+				50C5F304186997310057564D /* ObjectiveCPlusTests */,
+				50C5F2ED186997310057564D /* Frameworks */,
+				50C5F2EC186997310057564D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50C5F2EC186997310057564D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2EB186997310057564D /* libObjectiveCPlus.a */,
+				50C5F2FB186997310057564D /* ObjectiveCPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50C5F2ED186997310057564D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F2EE186997310057564D /* Foundation.framework */,
+				50C5F2FC186997310057564D /* XCTest.framework */,
+				50C5F2FF186997310057564D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50C5F2F0186997310057564D /* ObjectiveCPlus */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F316186997440057564D /* ObjectiveCPlus-Prefix.pch */,
+				50C5F317186997440057564D /* ObjectiveCPlus.h */,
+				50C5F314186997440057564D /* NSObject+OCPSwizzle.h */,
+				50C5F315186997440057564D /* NSObject+OCPSwizzle.m */,
+			);
+			path = ObjectiveCPlus;
+			sourceTree = "<group>";
+		};
+		50C5F304186997310057564D /* ObjectiveCPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F30A186997310057564D /* ObjectiveCPlusTests.m */,
+				50C5F305186997310057564D /* Supporting Files */,
+			);
+			path = ObjectiveCPlusTests;
+			sourceTree = "<group>";
+		};
+		50C5F305186997310057564D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F306186997310057564D /* ObjectiveCPlusTests-Info.plist */,
+				50C5F307186997310057564D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50C5F2EA186997310057564D /* ObjectiveCPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C5F30E186997310057564D /* Build configuration list for PBXNativeTarget "ObjectiveCPlus" */;
+			buildPhases = (
+				50C5F2E7186997310057564D /* Sources */,
+				50C5F2E8186997310057564D /* Frameworks */,
+				50C5F2E9186997310057564D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCPlus;
+			productName = ObjectiveCPlus;
+			productReference = 50C5F2EB186997310057564D /* libObjectiveCPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50C5F2FA186997310057564D /* ObjectiveCPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C5F311186997310057564D /* Build configuration list for PBXNativeTarget "ObjectiveCPlusTests" */;
+			buildPhases = (
+				50C5F2F7186997310057564D /* Sources */,
+				50C5F2F8186997310057564D /* Frameworks */,
+				50C5F2F9186997310057564D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50C5F302186997310057564D /* PBXTargetDependency */,
+			);
+			name = ObjectiveCPlusTests;
+			productName = ObjectiveCPlusTests;
+			productReference = 50C5F2FB186997310057564D /* ObjectiveCPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50C5F2E3186997310057564D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = McZonk;
+			};
+			buildConfigurationList = 50C5F2E6186997310057564D /* Build configuration list for PBXProject "ObjectiveCPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50C5F2E2186997310057564D;
+			productRefGroup = 50C5F2EC186997310057564D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50C5F2EA186997310057564D /* ObjectiveCPlus */,
+				50C5F2FA186997310057564D /* ObjectiveCPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50C5F2F9186997310057564D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F309186997310057564D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C5F2E7186997310057564D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F318186997440057564D /* NSObject+OCPSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C5F2F7186997310057564D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F30B186997310057564D /* ObjectiveCPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50C5F302186997310057564D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C5F2EA186997310057564D /* ObjectiveCPlus */;
+			targetProxy = 50C5F301186997310057564D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50C5F307186997310057564D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50C5F308186997310057564D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50C5F30C186997310057564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50C5F30D186997310057564D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50C5F30F186997310057564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveCPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCPlus/ObjectiveCPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		50C5F310186997310057564D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveCPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCPlus/ObjectiveCPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		50C5F312186997310057564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCPlus/ObjectiveCPlus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveCPlusTests/ObjectiveCPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50C5F313186997310057564D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCPlus/ObjectiveCPlus-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveCPlusTests/ObjectiveCPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50C5F2E6186997310057564D /* Build configuration list for PBXProject "ObjectiveCPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F30C186997310057564D /* Debug */,
+				50C5F30D186997310057564D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C5F30E186997310057564D /* Build configuration list for PBXNativeTarget "ObjectiveCPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F30F186997310057564D /* Debug */,
+				50C5F310186997310057564D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50C5F311186997310057564D /* Build configuration list for PBXNativeTarget "ObjectiveCPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F312186997310057564D /* Debug */,
+				50C5F313186997310057564D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50C5F2E3186997310057564D /* Project object */;
+}
